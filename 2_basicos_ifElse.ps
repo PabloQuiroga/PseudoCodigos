@@ -1,0 +1,45 @@
+Algoritmo sin_titulo
+//	Pedir dos valores numericos y mostrar cual es el mayor o si son iguales.
+	Escribir "introdusca el primer valor"
+	Leer valor_1
+	Escribir "Introduzca el segundo valor"
+	Leer valor_2
+	
+	Si (valor_1==valor_2) Entonces
+		Escribir " ambos valores son iguales"
+	SiNo
+		Si (valor_1 > valor_2) Entonces
+			Escribir "valor_1 es mayor"
+		SiNo
+			Escribir "valor_2 es mayor"
+		Fin Si
+	FinSi
+	
+	
+	
+//	Pedir el valor de un producto y mostrar cuanto valdria si se rebaja un 15% su precio.
+	Escribir "Introduzca el precio de su producto"
+	Leer precio
+	DESCUENTO = 0.15 //constante
+	
+	precioFinal = precio - (precio * DESCUENTO)
+	Escribir "El precio luego de aplicarle el 15% de descuento es ", precioFinal
+	
+	
+
+//	Pedir un valor numerico e indicar si es par o no.
+	Escribir "Introduzca un valor numerico"
+	Leer num
+	
+	Si (num MOD 2 == 0) Entonces
+		Escribir "el valor es par"
+	SiNo
+		Escribir "el valor no es par"
+	FinSi
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
